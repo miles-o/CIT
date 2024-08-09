@@ -1,0 +1,17 @@
+- Display info on recent and upcoming formula 1 races
+- Display info on drivers and constructors championship
+- openf1 api
+- RecentRace
+	- Winner
+		- Display driverInfo
+	- RaceResults
+		- driverName
+		- driverNumber
+		- driverTeam
+		- driverCountry
+		- positionChange
+		- gap
+		- totalRaceTime
+		- pointsGained
+- ChampionshipStats
+	- driver: Driver

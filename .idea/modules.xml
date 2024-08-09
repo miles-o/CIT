@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CIT.iml" filepath="$PROJECT_DIR$/.idea/CIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java1Session6/Java1Session6.iml" filepath="$PROJECT_DIR$/Java/Java1Session6/Java1Session6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Session 4/Session 4.iml" filepath="$PROJECT_DIR$/Java/Session 4/Session 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Session1Exercise2/Session1Exercise2.iml" filepath="$PROJECT_DIR$/Java/Session1Exercise2/Session1Exercise2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Session4_Exercise1/Session4_Exercise1.iml" filepath="$PROJECT_DIR$/Java/Session4_Exercise1/Session4_Exercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Session5_Exercise1/Session5_Exercise1.iml" filepath="$PROJECT_DIR$/Java/Session5_Exercise1/Session5_Exercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/helloWorld/helloWorld.iml" filepath="$PROJECT_DIR$/Java/helloWorld/helloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/session3/session3.iml" filepath="$PROJECT_DIR$/Java/session3/session3.iml" />
+    </modules>
+  </component>
+</project>

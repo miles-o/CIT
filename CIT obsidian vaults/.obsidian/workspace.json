@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "ee735398f5d485d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b58a97538dc9608",
+        "type": "tabs",
+        "dimension": 18.8953488372093,
+        "children": [
+          {
+            "id": "0d95f59a92d2eaea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Assessments/Assessment 1/UML diagrams.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bd0100ceddc4767f",
+        "type": "tabs",
+        "dimension": 81.1046511627907,
+        "children": [
+          {
+            "id": "8fc92cb02974c543",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Assessments/Assessment 1/Assessment 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2cbeafd193ec6951",
+    "type": "split",
+    "children": [
+      {
+        "id": "229f3da63b76b3f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcbe523165224ac7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b2a830e672ec1f8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f1dd850a9a26d14",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3a8b332f0e2aa96a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d2124f78ff47d18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6d8ab0b4ec7680a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Assessments/Assessment 1/Assessment 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "42cbaebd44880327",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java/Assessments/Assessment 1/Assessment 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "575757a98e6eed46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4c871ac8b7666d81",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Assessments/Assessment 1/Assessment 1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "3d-graph:3D Graph": false
+    }
+  },
+  "active": "8fc92cb02974c543",
+  "lastOpenFiles": [
+    "Java/Assessments/Assessment 1/UML diagrams.md",
+    "Java/Assessments/Assessment 1/Assessment 1.md",
+    "Untitled.md",
+    "Java/Assessments/Assessment 1",
+    "Java/Assessments",
+    "SQL/SQL Session 2 - Searching and sorting.md",
+    "Java/Diagram-7023.ffs_tmp",
+    "SQL/SQL Session 2 - Searching and sorting-7de4.ffs_tmp",
+    "Java/Diagram.svg-ab77.ffs_tmp",
+    "Pasted image 20240808094935.png",
+    "Pasted image 20240808094402.png",
+    "Java/Java session 6 - Loops and File IO.md",
+    "SQL",
+    "Java/Java Session 5 Exercise 1 - Library system.md",
+    "Java/Java Session 6 - Exercise 1.md",
+    "Java/Java Session 6 - Exercise 2.md",
+    "HTML class/Assessment 1 - Website Proposal.md",
+    "Java/Java Session 2 - Creating a class-615b.ffs_tmp",
+    "Java/Java Session 5 - Lifecycle of an object.md",
+    "Java/Java Session 4 - Revision exercise.md",
+    "CollectorClass.png",
+    "Java/Link to all session notes.md",
+    "Java/Java Session 2 - Creating a class.md",
+    "Java/Library class.png",
+    "Java/Diagram 1.svg.xml",
+    "Java/Diagram 1.svg",
+    "Java/Diagram.svg.xml",
+    "Java/Diagram.svg",
+    "Java/For loop.canvas",
+    "Java/Java Session 3 - Code.md",
+    "Java/Java Session 2 exercise 2 - Create student class.md",
+    "Java/Java Session 2 exercise 1 - Create student UML diagram.md",
+    "Java/Java Session 3 - From Design to Code.md",
+    "Java/Java Session 2 - Code.md",
+    "Java/Java Session 4 - Exercise 2.md",
+    "Java/Pasted image 20240804004123.png",
+    "Java/Pasted image 20240804004837.png",
+    "Java/Pasted image 20240804160604.png",
+    "Java/Untitled.png",
+    "Java/Java Session 1 - Introduction.md",
+    "Python/Python Session 3 - Practical.md",
+    "Java/Java Session 3 exercise 1 - Create student object.md",
+    "Java/Java Session 4 - Exercise 1.md",
+    "Java/Java Session 4 - Revision and Accessibility of objects.md",
+    "Python/Python Session 2 - python rules and basic IO.md",
+    "Python/Python Session 2 - Exercise 1.md",
+    "Python/Untitled.canvas",
+    "Python/Prac3.pdf"
+  ]
+}
