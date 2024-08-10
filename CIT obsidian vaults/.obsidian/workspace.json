@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Assessments/Assessment 1/Assessment 1.md",
+                "file": "HTML class/Week 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Assessments/Assessment 1/Assessment 1.md",
+                "file": "HTML class/Week 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Assessments/Assessment 1/Assessment 1.md",
+                "file": "HTML class/Week 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Assessments/Assessment 1/Assessment 1.md"
+                "file": "HTML class/Week 2.md"
               }
             }
           }
@@ -168,8 +168,15 @@
   },
   "active": "8fc92cb02974c543",
   "lastOpenFiles": [
-    "Java/Assessments/Assessment 1/UML diagrams.md",
+    "Python/Python Session 3 - Control Structures and Logical Expressions.md",
+    "Python/Python Session 3 - Practical.md",
+    "Python/Prac3.pdf",
+    "HTML class/HTML Session 2 activity.md",
+    "HTML class/HTML template.md",
+    "HTML class/Assessment 1 - Website Proposal.md",
+    "HTML class/Week 2.md",
     "Java/Assessments/Assessment 1/Assessment 1.md",
+    "Java/Assessments/Assessment 1/UML diagrams.md",
     "Untitled.md",
     "Java/Assessments/Assessment 1",
     "Java/Assessments",
@@ -184,7 +191,6 @@
     "Java/Java Session 5 Exercise 1 - Library system.md",
     "Java/Java Session 6 - Exercise 1.md",
     "Java/Java Session 6 - Exercise 2.md",
-    "HTML class/Assessment 1 - Website Proposal.md",
     "Java/Java Session 2 - Creating a class-615b.ffs_tmp",
     "Java/Java Session 5 - Lifecycle of an object.md",
     "Java/Java Session 4 - Revision exercise.md",
@@ -208,13 +214,7 @@
     "Java/Pasted image 20240804160604.png",
     "Java/Untitled.png",
     "Java/Java Session 1 - Introduction.md",
-    "Python/Python Session 3 - Practical.md",
     "Java/Java Session 3 exercise 1 - Create student object.md",
-    "Java/Java Session 4 - Exercise 1.md",
-    "Java/Java Session 4 - Revision and Accessibility of objects.md",
-    "Python/Python Session 2 - python rules and basic IO.md",
-    "Python/Python Session 2 - Exercise 1.md",
-    "Python/Untitled.canvas",
-    "Python/Prac3.pdf"
+    "Python/Untitled.canvas"
   ]
 }

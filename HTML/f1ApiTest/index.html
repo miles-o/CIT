@@ -3,52 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Fetch starting point</title>
-
-    <style>
-      html,
-      pre {
-        font-family: sans-serif;
-      }
-
-      body {
-        width: 500px;
-        margin: 0 auto;
-        background-color: #ccc;
-      }
-
-      pre {
-        line-height: 1.5;
-        letter-spacing: 0.05rem;
-        padding: 1rem;
-        background-color: white;
-      }
-
-      label {
-        width: 200px;
-        margin-right: 33px;
-      }
-
-      select {
-        width: 350px;
-        padding: 5px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>F1 info</title>
   </head>
 
   <body>
-    <h1>Fetch starting point</h1>
-
-    <form>
-      <label for="verse-choose">Choose a verse</label>
-      <button>Get driver</button>
-    </form>
-
-    <h2>The Conqueror Worm, <em>Edgar Allen Poe, 1843</em></h2>
-
-    <pre></pre>
-
-    <script src="js/script.js"></script>
+    <header>
+      <h1 id="top_3">Last F1 Race Top 3</h1>
+    </header>
+    <div id="last_race">
+      <h2 id="track_name">Track Name</h2>
+      <h3 id="subtitle">Top 3:</h3>
+      <p id="p1">P1: </p>
+      <p id="p2">P2: </p>
+      <p id="p3">P3: </p>
+      <!-- <script src="js/last_race.js"></script> -->
+    </div>
+    <div id="next_race">
+      <h2 id="track_name">Track Name</h2>
+      <h3 id="subtitle">Race:</h3>
+      <div id="practice">
+        <p id="pr1">Practice 1: </p>
+        <p id="pr2">Practice 2: </p>
+        
+      </div>
+      <div id="quali_race">
+        <p id="pr3">Practice 3: </p>
+        <p id="quali">Quali:</p>
+      </div>
+      <script src="js/next_race.js"></script>
+    </div>
+    </div>
+    
   </body>
 </html>

@@ -1,0 +1,117 @@
+body {
+    background-color: #1f1e1e;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#track_name {
+    font-family: 'courier new';
+    font-size:40px;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: auto;
+    padding: 30px;
+    background-image: linear-gradient(45deg, #5e0101, #c70202);
+    border-style: solid;
+    border-radius: 30px;
+}
+#last_race {
+    background-image: linear-gradient(45deg, #5e0101, #c70202);
+    width: 40%;
+    height: auto;
+    margin: 15px;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20% 2%;
+    float: left;
+}
+#next_race {
+    background-image: linear-gradient(45deg, #5e0101, #c70202);
+    width: 40%;
+    height: auto;
+    margin: 15px;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20% 2%;
+    float: right;
+    
+}
+
+#top_3 {
+    font-family: 'courier new';
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin: 5px;
+}
+
+#subtitle {
+    font-family: 'courier new';
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#p1 {
+    font-family: 'courier new';
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+#p2 {
+    font-family: 'courier new';
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+#p3 {
+    font-family: 'courier new';
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+#practice {
+    float: left;
+    font-family: 'courier new';
+    font-size: 20px;
+    font-weight: 700;
+}
+#quali_race {
+    float: right;
+    font-family: 'courier new';
+    font-size: 25px;
+    font-weight: 700;
+}
+#pr1 {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+#pr2 {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+#pr3 {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+#quali {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+#race {
+    margin: 0px;
+    margin-bottom: 2px;
+}
