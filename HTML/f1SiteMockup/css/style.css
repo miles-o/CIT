@@ -1,0 +1,64 @@
+html {
+    overflow-y: scroll; 
+}
+body {
+    font-family: 'courier new', 'arial';
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+#nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+li {
+    float: left;
+    
+}
+li a {
+    display: block;
+    color: black;
+    font-weight: 700;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #9c0202;
+}
+.last_race{
+    background-color: whitesmoke;
+    margin-top: 55px;
+    padding: 15px;
+}
+hr {
+    border: 1px solid gray;
+}
+.next_race {
+    background-color: whitesmoke;
+    margin-top: 55px;
+    padding: 15px;
+    overflow: hidden;
+}
+.practice {
+    float: left;
+    width: 50%;
+}
+.quali_race {
+    float: right;
+    width: 50%;
+}
+.position {
+    padding: 15px;
+    border-top:  2px solid grey;
+}
+.time {
+    padding: 15px;
+    border-top:  2px solid grey;
+}

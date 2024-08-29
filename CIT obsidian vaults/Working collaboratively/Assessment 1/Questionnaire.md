@@ -1,0 +1,25 @@
+- When working collaboratively with others in any environment, several regulatory guidelines must be applied and followed. This task requires you to research and identify legislation, a code of practice and a standard. Mention and briefly describe what each represents and give an example of how each is applied in the IT industry. Provide a link to each of your sources. ^196169
+	- legislative guideline
+	- code of practice
+	- standard
+- What WHS requirements should we consider when working collaboratively with others?
+	- Is this just in virtual teams?
+- Explain why and how often you should schedule a meeting with your supervisor for regular check ins.
+	- How often should these meetings occur?
+	- What is the benefit of this frequency
+- For the following communication strategies, explain the functions and features
+	- Control
+		- Function
+		- Feature
+	- Motivation
+		- Function 
+		- Feature
+- For the following two virtual collaboration platforms, identify a collaboration technique and explain how it is achieved or supported within these platforms
+	- Microsoft Teams
+		- Communication technique
+		- How achieved/supported
+	- Cisco webex
+		- Communication technique
+		- How achieved/supported
+- Conflict can occur in any meeting environment, during a virtual meeting. Identify two methods on how conflict can be managed/mediated
+- Identify two ways constructive feedback can be provided, and give an example for each

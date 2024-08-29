@@ -40,10 +40,7 @@ Data type defines the data type
 Attribute name
 * start with lower case
 ### Syntax for UML diagram
-[[Java Session 1 - Introduction#Unified Modelling Language (UML)]]
-
-
-
+More on UML diagrams in [[Java Session 1 - Introduction]]
 
 | Employee                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |

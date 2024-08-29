@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f79185b15699b50e",
+        "id": "8b58a97538dc9608",
         "type": "tabs",
         "children": [
           {
-            "id": "9e9f5454c78ba840",
+            "id": "0d95f59a92d2eaea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java Session 5 - Lifecycle of an object.md",
+                "file": "Java/Java Session 6 - Exercise 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java Session 5 - Lifecycle of an object.md",
+                "file": "Java/Java Session 6 - Exercise 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java Session 5 - Lifecycle of an object.md",
+                "file": "Java/Java Session 6 - Exercise 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java Session 5 - Lifecycle of an object.md"
+                "file": "Java/Java Session 6 - Exercise 1.md"
               }
             }
           }
@@ -146,55 +146,49 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9e9f5454c78ba840",
+  "active": "0d95f59a92d2eaea",
   "lastOpenFiles": [
-    "Java/Java Session 5 Exercise 1 - Library system.md",
-    "Java/Java Session 4 - Revision and Accessibility of objects.md",
+    "Java/Java Session 2 - Creating a class-615b.ffs_tmp",
+    "Java/Java Session 6 - Exercise 2.md",
     "Java/Java session 6 - Loops and File IO.md",
-    "Java/Java Session 3 - Code.md",
-    "Java/Java Session 2 exercise 1 - Create student UML diagram.md",
-    "Java/Java Session 2 - Code.md",
+    "Java/Java Session 5 Exercise 1 - Library system.md",
+    "Java/Java Session 6 - Exercise 1.md",
     "Java/Java Session 5 - Lifecycle of an object.md",
     "Java/Java Session 4 - Revision exercise.md",
-    "Java/Java Session 4 - Exercise 2.md",
+    "CollectorClass.png",
+    "Java/Link to all session notes.md",
+    "Java/Java Session 2 - Creating a class.md",
+    "Java/Library class.png",
+    "Java/Diagram 1.svg.xml",
+    "Java/Diagram 1.svg",
+    "Java/Diagram.svg.xml",
+    "Java/Diagram.svg",
+    "Java/For loop.canvas",
+    "Java/Java Session 3 - Code.md",
+    "Java/Java Session 2 exercise 2 - Create student class.md",
+    "Java/Java Session 2 exercise 1 - Create student UML diagram.md",
     "Java/Java Session 3 - From Design to Code.md",
+    "Java/Java Session 2 - Code.md",
+    "Java/Java Session 4 - Exercise 2.md",
+    "Java/Pasted image 20240804004123.png",
+    "Java/Pasted image 20240804004837.png",
+    "Java/Pasted image 20240804160604.png",
+    "Java/Untitled.png",
+    "Java/Java Session 1 - Introduction.md",
+    "Python/Python Session 3 - Practical.md",
     "Java/Java Session 3 exercise 1 - Create student object.md",
     "Java/Java Session 4 - Exercise 1.md",
-    "Java/Java Session 6 - Exercise 1.md",
-    "Java/Java Session 6 - Exercise 2.md",
-    "HTML class/Assessment 1 - Website Proposal.md",
-    "images/Library class.png",
-    "images/Diagram 1.svg",
-    "Python/Python session 5 - Functions, Methods, and Iterables.md",
-    "App inventor/session 3 - PaintPot.md",
-    "Java/Assessments/Assessment 1/Assessment 1.md",
-    "App inventor",
-    "Java/Assessments/Assessment 1/UML diagrams.md",
-    "Java/Assessments/Assessment 1/Questions.md",
-    "images/Screenshot 2024-08-12 at 7.20.15 pm.jpg",
-    "images/Pasted image 20240808094402.png",
-    "images/Pasted image 20240808094935.png",
-    "images/CollectorClass.png",
-    "images",
-    "SQL/SQL Session 2 - Searching and sorting.md",
-    "Java/Java Session 2 - Creating a class.md",
-    "images/Screenshot 2024-08-12 at 7.25.10 pm.jpg",
-    "images/Screenshot 2024-08-12 at 7.24.12 pm.jpg",
-    "images/Screenshot 2024-08-12 at 7.23.17 pm.jpg",
-    "images/Screenshot 2024-08-12 at 7.22.07 pm.jpg",
-    "Working collaboratively/Assessment 1/Questionnaire.md",
-    "Working collaboratively/Assessment 1/Assessment 1 answers.md",
-    "SQL/SQL Session 3 - Single row functions.md",
-    "Screenshot 2024-08-12 at 9.40.35 am.jp2",
-    "SQL/SQL session 4 - Conversion functions.md",
-    "Working collaboratively/Assessment 1",
-    "Working collaboratively",
+    "Java/Java Session 4 - Revision and Accessibility of objects.md",
+    "Python/Python Session 2 - python rules and basic IO.md",
+    "Python/Python Session 2 - Exercise 1.md",
+    "Python/Python Session 1 - Python basics.md",
+    "Python/Untitled.canvas",
     "Python/Prac3.pdf",
-    "Java/Assessments/Assessment 1",
-    "Java/Assessments",
-    "Java/Diagram-7023.ffs_tmp",
-    "SQL/SQL Session 2 - Searching and sorting-7de4.ffs_tmp",
-    "Java/For loop.canvas",
-    "Python/Untitled.canvas"
+    "Python/Python Session 3 - Control Structures and Logical Expressions.md",
+    "HTML class/HTML Session 2 activity.md",
+    "HTML class/Week 2.md",
+    "Python",
+    "Java/Capture5.png",
+    "Java/Capture4 (1).png"
   ]
 }

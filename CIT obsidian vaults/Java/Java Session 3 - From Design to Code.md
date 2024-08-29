@@ -4,7 +4,7 @@
  - Each attribute will be initialised with a value. This value is called 'state'.
  - Each method will become a Behaviour, this behaviour can be called from this object.
 #### Constructor
- - A special method [[Java Session 2 - Creating a class#Claiming a method]] used to initialise objects.
+ - A special method (same as a normal method as defined in [[Java Session 2 - Creating a class]]) used to initialise objects.
 	 - A constructor method has no return type
 	 - A constructor has the same name as the class name
  - Each class has a default constructor if none is specified
