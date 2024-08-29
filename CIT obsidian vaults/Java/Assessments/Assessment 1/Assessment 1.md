@@ -2,7 +2,7 @@ This assessment is a work simulation task.
 
 Distributed Services has hired you to create a program for its client, a local rescue shelter. The shelter needs a program to help it manage the animals it cares for. The system will focus on dogs for now but could be expanded to cover more animals later.
 
-Your supervisor has already gone through the requirements-gathering phase.
+Your supervisor has already gone through there requirements-gathering phase.
 ## Program Specifications
 
 1.       Depending on the developer's preference, the system can be either a GUI or a CLI.

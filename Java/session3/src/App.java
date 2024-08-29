@@ -6,7 +6,7 @@ public class App {
         System.out.println(emp2);
 
         Student student1 = new Student("286494", "Miles", "O'Hara-Dewhurst", """
-                miles@noisyoyster.net""", "Cert IV in IT", Boolean.FALSE);
+                miles@noisyoyster.net""", "Cert IV in IT", false);
         System.out.println(student1);
     }
 }

@@ -2,7 +2,7 @@ const p1 = document.getElementById("p1");
 const p2 = document.getElementById("p2");
 const p3 = document.getElementById("p3");
 const track_name = document.getElementById("track_name");
-const url1 = 'https://api-formula-1.p.rapidapi.com/races?last=1';
+const url1 = 'https://api-formula-1.p.rapidapi.com/races?season=2024&type=race';
 
 const options = {
 	method: 'GET',
@@ -17,7 +17,8 @@ fetch(url1, options)
 	return answer.json();
     
 })
-.then((answer)=>{
+.then((answer) => {
+	console.log(answer);
 	track_name.textContent = answer.response[0].circuit.name;
 	return url2 = 'https://api-formula-1.p.rapidapi.com/rankings/races?race=' + answer.response[0].id;
 })

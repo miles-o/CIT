@@ -4,7 +4,7 @@ public class Student {
     public String lastName;
     public String email;
     public String certificate;
-    public Boolean partTime;
+    public boolean partTime;
 
     public Student(String studentID, String firstName, String lastName, String email, String certificate, Boolean partTime) {
         this.studentID = studentID;

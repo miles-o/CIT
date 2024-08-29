@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b58a97538dc9608",
+        "id": "f79185b15699b50e",
         "type": "tabs",
-        "dimension": 18.8953488372093,
         "children": [
           {
-            "id": "0d95f59a92d2eaea",
+            "id": "9e9f5454c78ba840",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Assessments/Assessment 1/UML diagrams.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bd0100ceddc4767f",
-        "type": "tabs",
-        "dimension": 81.1046511627907,
-        "children": [
-          {
-            "id": "8fc92cb02974c543",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML class/Week 2.md",
+                "file": "Java/Java Session 5 - Lifecycle of an object.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML class/Week 2.md",
+                "file": "Java/Java Session 5 - Lifecycle of an object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML class/Week 2.md",
+                "file": "Java/Java Session 5 - Lifecycle of an object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML class/Week 2.md"
+                "file": "Java/Java Session 5 - Lifecycle of an object.md"
               }
             }
           }
@@ -166,55 +146,55 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8fc92cb02974c543",
+  "active": "9e9f5454c78ba840",
   "lastOpenFiles": [
-    "Python/Python Session 3 - Control Structures and Logical Expressions.md",
-    "Python/Python Session 3 - Practical.md",
-    "Python/Prac3.pdf",
-    "HTML class/HTML Session 2 activity.md",
-    "HTML class/HTML template.md",
-    "HTML class/Assessment 1 - Website Proposal.md",
-    "HTML class/Week 2.md",
-    "Java/Assessments/Assessment 1/Assessment 1.md",
-    "Java/Assessments/Assessment 1/UML diagrams.md",
-    "Untitled.md",
-    "Java/Assessments/Assessment 1",
-    "Java/Assessments",
-    "SQL/SQL Session 2 - Searching and sorting.md",
-    "Java/Diagram-7023.ffs_tmp",
-    "SQL/SQL Session 2 - Searching and sorting-7de4.ffs_tmp",
-    "Java/Diagram.svg-ab77.ffs_tmp",
-    "Pasted image 20240808094935.png",
-    "Pasted image 20240808094402.png",
-    "Java/Java session 6 - Loops and File IO.md",
-    "SQL",
     "Java/Java Session 5 Exercise 1 - Library system.md",
-    "Java/Java Session 6 - Exercise 1.md",
-    "Java/Java Session 6 - Exercise 2.md",
-    "Java/Java Session 2 - Creating a class-615b.ffs_tmp",
+    "Java/Java Session 4 - Revision and Accessibility of objects.md",
+    "Java/Java session 6 - Loops and File IO.md",
+    "Java/Java Session 3 - Code.md",
+    "Java/Java Session 2 exercise 1 - Create student UML diagram.md",
+    "Java/Java Session 2 - Code.md",
     "Java/Java Session 5 - Lifecycle of an object.md",
     "Java/Java Session 4 - Revision exercise.md",
-    "CollectorClass.png",
-    "Java/Link to all session notes.md",
-    "Java/Java Session 2 - Creating a class.md",
-    "Java/Library class.png",
-    "Java/Diagram 1.svg.xml",
-    "Java/Diagram 1.svg",
-    "Java/Diagram.svg.xml",
-    "Java/Diagram.svg",
-    "Java/For loop.canvas",
-    "Java/Java Session 3 - Code.md",
-    "Java/Java Session 2 exercise 2 - Create student class.md",
-    "Java/Java Session 2 exercise 1 - Create student UML diagram.md",
-    "Java/Java Session 3 - From Design to Code.md",
-    "Java/Java Session 2 - Code.md",
     "Java/Java Session 4 - Exercise 2.md",
-    "Java/Pasted image 20240804004123.png",
-    "Java/Pasted image 20240804004837.png",
-    "Java/Pasted image 20240804160604.png",
-    "Java/Untitled.png",
-    "Java/Java Session 1 - Introduction.md",
+    "Java/Java Session 3 - From Design to Code.md",
     "Java/Java Session 3 exercise 1 - Create student object.md",
+    "Java/Java Session 4 - Exercise 1.md",
+    "Java/Java Session 6 - Exercise 1.md",
+    "Java/Java Session 6 - Exercise 2.md",
+    "HTML class/Assessment 1 - Website Proposal.md",
+    "images/Library class.png",
+    "images/Diagram 1.svg",
+    "Python/Python session 5 - Functions, Methods, and Iterables.md",
+    "App inventor/session 3 - PaintPot.md",
+    "Java/Assessments/Assessment 1/Assessment 1.md",
+    "App inventor",
+    "Java/Assessments/Assessment 1/UML diagrams.md",
+    "Java/Assessments/Assessment 1/Questions.md",
+    "images/Screenshot 2024-08-12 at 7.20.15 pm.jpg",
+    "images/Pasted image 20240808094402.png",
+    "images/Pasted image 20240808094935.png",
+    "images/CollectorClass.png",
+    "images",
+    "SQL/SQL Session 2 - Searching and sorting.md",
+    "Java/Java Session 2 - Creating a class.md",
+    "images/Screenshot 2024-08-12 at 7.25.10 pm.jpg",
+    "images/Screenshot 2024-08-12 at 7.24.12 pm.jpg",
+    "images/Screenshot 2024-08-12 at 7.23.17 pm.jpg",
+    "images/Screenshot 2024-08-12 at 7.22.07 pm.jpg",
+    "Working collaboratively/Assessment 1/Questionnaire.md",
+    "Working collaboratively/Assessment 1/Assessment 1 answers.md",
+    "SQL/SQL Session 3 - Single row functions.md",
+    "Screenshot 2024-08-12 at 9.40.35 am.jp2",
+    "SQL/SQL session 4 - Conversion functions.md",
+    "Working collaboratively/Assessment 1",
+    "Working collaboratively",
+    "Python/Prac3.pdf",
+    "Java/Assessments/Assessment 1",
+    "Java/Assessments",
+    "Java/Diagram-7023.ffs_tmp",
+    "SQL/SQL Session 2 - Searching and sorting-7de4.ffs_tmp",
+    "Java/For loop.canvas",
     "Python/Untitled.canvas"
   ]
 }

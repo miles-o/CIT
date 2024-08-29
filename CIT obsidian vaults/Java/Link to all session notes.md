@@ -1,6 +1,0 @@
-[[Java Session 1 - Introduction]]
-[[Java Session 2 - Creating a class]]
-[[Java Session 3 - From Design to Code]]
-[[Java Session 4 - Revision and Accessibility of objects]]
-[[Java Session 5 - Lifecycle of an object]]
-[[Java session 6 - Loops and File IO]]
