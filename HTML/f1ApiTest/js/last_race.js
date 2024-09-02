@@ -2,7 +2,7 @@ const p1 = document.getElementById("p1");
 const p2 = document.getElementById("p2");
 const p3 = document.getElementById("p3");
 const track_name = document.getElementById("track_name");
-const url1 = 'https://api-formula-1.p.rapidapi.com/races?season=2024&type=race';
+const url1 = 'https://api-formula-1.p.rapidapi.com/races?season=2024';
 
 const options = {
 	method: 'GET',
