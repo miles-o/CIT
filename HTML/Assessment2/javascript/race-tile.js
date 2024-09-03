@@ -1,3 +1,13 @@
+const url1 = 'https://api-formula-1.p.rapidapi.com/races?season=2024';
+
+const options = {
+    method: 'GET',
+    headers: {
+        'x-rapidapi-key': '',
+        'x-rapidapi-host': 'api-formula-1.p.rapidapi.com'
+    }
+};
+
 function getSessionTime(session, currentEvent) {
     // let tempString = currentEvent.get(session).time;
     // tempString = tempString.split('+');
@@ -6,7 +16,6 @@ function getSessionTime(session, currentEvent) {
 }
 
 function createStandardRaceTile(currentEvent, row) {
-    console.log(currentEvent);
     const raceTile = document.createElement("div");
     raceTile.className = "race-tile";
 
@@ -15,7 +24,7 @@ function createStandardRaceTile(currentEvent, row) {
 
     const trackName = document.createElement("h4");
     trackName.className = "track-name";
-    trackName.innerText = currentEvent.get("Race").circuit.name;
+    trackName.innerText = currentEvent.get("Race").competition.name;
 
     const horizontalContent = document.createElement("div");
     horizontalContent.className = "horizontal-content";
@@ -87,7 +96,6 @@ function createStandardRaceTile(currentEvent, row) {
 }
 
 function createSprintRaceTile(currentEvent, row) {
-    console.log(currentEvent);
     const raceTile = document.createElement("div");
     raceTile.className = "race-tile";
 
@@ -175,18 +183,6 @@ function createRaceTile(row, compId, events) {
         createSprintRaceTile(currentEvent, row);
     }
 }
-
-const url1 = 'https://api-formula-1.p.rapidapi.com/races?season=2024';
-
-const options = {
-    method: 'GET',
-    headers: {
-        'x-rapidapi-key': '',
-        'x-rapidapi-host': 'api-formula-1.p.rapidapi.com'
-    }
-};
-
-let compIds = new Map();
 
 fetch(url1, options)
     .then((answer) => {

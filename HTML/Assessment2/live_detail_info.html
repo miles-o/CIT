@@ -11,7 +11,7 @@
     <nav id="nav-bar">
         <a href="index.html" class="nav-button">Home</a>
         <a href="live_schedule.html" class="nav-button">Schedule</a>
-        <a href="detail_info.html" class="nav-button">Detail info</a>
+        <a href="static_detail_info.html" class="nav-button">Detail info</a>
         <a href="contact_us.html" class="nav-button">Contact us</a>
     </nav>
   </header>
@@ -20,46 +20,52 @@
           <div class="vertical-content">
               <label for="races">Select race</label>
               <select name="races" id="races">
-                  <option value="race-1">Race 1</option>
-                  <option value="race-2">Race 2</option>
-                  <option value="race-3">Race 3</option>
-                  <option value="race-4">Race 4</option>
+                <option id="select">Select race</option>
               </select>
           </div>
       </div>
     <div class="main-content-frame">
-        <img src="images/track_map_placeholder.jpg" alt="track map" class="track-map">
-        <h1>Track name</h1>
+        <img src="images/track_map_placeholder.jpg" alt="track map" class="track-map" id="track-map">
+        <h1 id="track-name">Track name</h1>
         <div class="vertical-content">
             <div class="schedule">
                 <div>
                     <h4>Schedule</h4>
                     <div class="vertical-content">
-                        <p>P1:</p>
-                        <p>P2:</p>
-                        <p>P3:</p>
+                        <p id="session1-label">P1:</p>
+                        <p id="session1"></p>
+                        <p id="session2-label">P2:</p>
+                        <p id="session2"></p>
+                        <p id="session3-label">P3:</p>
+                        <p id="session3"></p>
                     </div>
                 </div>
                 <div>
                     <div class="vertical-content" style="margin-top: 24px">
-                        <p>Quali: </p>
-                        <p>Race: </p>
+                        <p id="session4-label">Quali: </p>
+                        <p id="quali"></p>
+                        <p id="session5-label">Race: </p>
+                        <p id="race"></p>
                     </div>
                 </div>
             </div>
             <div class="race-info">
                 <div>
                     <h4>Country: </h4>
+                    <p id="country"></p>
                     <h4>City: </h4>
+                    <p id="city"></p>
                 </div>
                 <div>
                     <h4> Race distance: </h4>
+                    <p id="distance"></p>
                 </div>
             </div>
         </div>
         <hr>
         <p id="race-dates">Start date - End date</p>
     </div>
+      <script src="javascript/detail_info.js"></script>
   </main>
   <footer>
     <div id="footer">
