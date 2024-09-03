@@ -71,19 +71,20 @@ fetch(url1, options)
     })
     .then((answer) => {
         console.log(answer);
+        let events = new Map();
         for (let i = 0; i < answer.response.length; i++) {
-            console.log(compIds);
+            let compId = answer.response[i].competition.id;
+            let type = answer.response[i].type;
 
-            if (!(answer.response[i].competition.id in compIds)) {
-                compIds.set(answer.response[i].competition.id, []);
-
+            let tempEvent = new Map();
+            if (events.get(compId) !== undefined) {
+                tempEvent = events.get(compId);
             }
-            const currVal = compIds.get(answer.response[i].competition.id);
+            tempEvent.set(type, answer.response[i]);
 
-            compIds.set(answer.response[i].competition.id, currVal.push(answer.response[i]));
-
+            events.set(compId, tempEvent);
         }
-        console.log(compIds);
+        console.log(events);
         let row = 1;
         let col = 0;
         for (let i = 0; i < compIds.length; i++) {
