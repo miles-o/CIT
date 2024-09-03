@@ -26,6 +26,11 @@ h4 {
     font-size: 24px;
 }
 
+h5 {
+    font-size: 18px;
+    margin: 2px;
+}
+
 hr {
     border: 0;
     clear: both;
@@ -44,9 +49,9 @@ content frames
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 80%;
     padding: 10px;
-    margin: 20px 15%;
+    margin: 20px 10%;
     min-height: 75vh;
 }
 
