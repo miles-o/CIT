@@ -5,16 +5,13 @@ universal
 /*
 tags
 */
-html {
-    overflow-y: scroll; 
-}
 
 body {
     font-family: inter, arial, serif;
     font-size: 18px;
     width: auto;
     margin: auto;
-    overflow: hidden;
+    overflow-x: hidden;
     text-align: center;
 }
 
@@ -276,7 +273,6 @@ contact us page
 }
 
 .contact-form input {
-    margin-bottom: 20px;
     box-sizing: border-box;
     padding: 5px 10px;
     border: 1px solid gray;
@@ -290,27 +286,35 @@ contact us page
     height: 50%;
 }
 
-.contact-form .vertical-content input {
+#submit {
     font-size: 18px;
+    width: 90%;
+    margin: 0 5%;
 }
 
-#message-field {
+#message {
     box-sizing: border-box;
     border: 1px solid gray;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     height: 150px;
     padding: 10px 5px;
-    margin-bottom: 10px;
+    margin: 5%;
     resize: none;
 }
 
 .contact-form .horizontal-content .vertical-content {
     margin: 5%;
     width: 40%;
+    padding: 0;
 }
+
 
 .contact-info {
     width: 40%;
     margin: 5%;
+}
+
+.required {
+    color: red;
 }

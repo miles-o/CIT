@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>F1 info</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <title>F1 Schedule</title>
   </head>
   <body>
   <header>
@@ -28,25 +29,33 @@
                 <p>80 Goon St</p>
             </div>
             <div class="contact-form">
-                <form>
-                    <div class="horizontal-content">
-                        <div class="vertical-content">
-                            <label for="name_field">Name:</label>
-                            <input type="text" id="name_field" name="name_field" placeholder="Name...">
-                            <label for="email_field">Email:</label>
-                            <input type="text" id="email_field" name="email_field" placeholder="Email...">
+                <form action="mailto:miles@noisyoyster.net" method="POST">
+                    <div class="vertical-content">
+                        <div class="horizontal-content">
+                            <div class="vertical-content">
+                                <label for="first_name">First Name:<span class="required">*</span></label>
+                                <input type="text" id="first_name" name="first_name" placeholder="First Name..." required="">
+                            </div>
+                            <div class="vertical-content">
+                                <label for="last_name">Last Name: <span class="required">*</span></label>
+                                <input type="text" id="last_name" name="last_name" placeholder="Last Name..." required="">
+                            </div>
                         </div>
-                        <div class="vertical-content">
-                            <label for="phone_field">Phone:</label>
-                            <input type="text" id="phone_field" name="phone_field" placeholder="Phone...">
-                            <label for="company_field">Company: </label>
-                            <input type="text" id="company_field" name="company_field" placeholder="Company...">
+                        <div class="horizontal-content">
+                            <div class="vertical-content">
+                                <label for="phone_number">Phone:<span class="required">*</span></label>
+                                <input type="number" id="phone_number" name="phone_number" placeholder="Phone..." required="">
+                            </div>
+                            <div class="vertical-content">
+                                <label for="email">Email:<span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="Email..." required="">
+                            </div>
                         </div>
                     </div>
                     <div class="vertical-content">
-                        <label for="message-field">Message:</label>
-                        <textarea id="message-field" rows="4" cols="50"></textarea>
-                        <input type="submit" value="Submit">
+                        <label for="message">Message: <span class="required">*</span></label>
+                        <textarea id="message" rows="4" cols="50" required=""></textarea>
+                        <input type="submit" value="Submit" id="submit">
                     </div>
                 </form>
 
