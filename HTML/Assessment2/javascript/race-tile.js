@@ -17,63 +17,51 @@ function getSessionTime(session, currentEvent) {
 
 function createStandardRaceTile(currentEvent, row) {
     const raceTile = document.createElement("div");
-    raceTile.className = "race-tile";
-
     const raceTileInfo = document.createElement("div");
-    raceTileInfo.className = "race-tile-info";
-
     const trackName = document.createElement("h4");
-    trackName.className = "track-name";
-    trackName.innerText = currentEvent.get("Race").competition.name;
-
     const horizontalContent = document.createElement("div");
-    horizontalContent.className = "horizontal-content";
-
     const verticalContent1 = document.createElement("div");
-    verticalContent1.className = "vertical-content";
-
     const p1Title = document.createElement("h5");
-    p1Title.className = "p1Title";
-    p1Title.innerText = "P1:";
-
     const p1 = document.createElement("p");
-    p1.className = "p1";
-    p1.innerText = getSessionTime("1st Practice", currentEvent);
-
     const p2Title = document.createElement("h5");
-    p2Title.className = "p2Title";
-    p2Title.innerText = "P2:";
-
     const p2 = document.createElement("p");
-    p2.className = "p2";
-    p2.innerText = getSessionTime("2nd Practice", currentEvent);
-
     const p3Title = document.createElement("h5");
-    p3Title.className = "p3Title";
-    p3Title.innerText = "P3:";
-
     const p3 = document.createElement("p");
-    p3.className = "p3";
-    p3.innerText = getSessionTime("3rd Practice", currentEvent);
-
     const verticalContent2 = document.createElement("div");
-    verticalContent2.className = "vertical-content";
-
     const qualiTitle = document.createElement("h5");
-    qualiTitle.className = "qualiTitle";
-    qualiTitle.innerText = "Quali:";
-
     const quali = document.createElement("p");
-    quali.className = "quali";
-    quali.innerText = getSessionTime("1st Qualifying", currentEvent);
-
     const raceTitle = document.createElement("h5");
-    raceTitle.className = "raceTitle";
-    raceTitle.innerText = "Race:";
-
     const race = document.createElement("p");
-    race.className = "race";
+
+    raceTile.style.backgroundImage = "url('images/" + currentEvent.get("Race").competition.id + ".avif')"
+    trackName.innerText = currentEvent.get("Race").competition.name;
+    p1Title.innerText = "P1:";
+    p1.innerText = getSessionTime("1st Practice", currentEvent);
+    p2Title.innerText = "P2:";
+    p2.innerText = getSessionTime("2nd Practice", currentEvent);
+    p3Title.innerText = "P3:";
+    p3.innerText = getSessionTime("3rd Practice", currentEvent);
+    qualiTitle.innerText = "Quali:";
+    quali.innerText = getSessionTime("1st Qualifying", currentEvent);
+    raceTitle.innerText = "Race:";
     race.innerText = getSessionTime("Race", currentEvent);
+
+    raceTile.className = "race-tile";
+    raceTileInfo.className = "race-tile-info";
+    trackName.className = "track-name";
+    horizontalContent.className = "horizontal-content";
+    verticalContent1.className = "vertical-content";
+    p1Title.className = "p1Title";
+    p1.className = "p1";
+    p2Title.className = "p2Title";
+    p2.className = "p2";
+    p3Title.className = "p3Title";
+    p3.className = "p3";
+    verticalContent2.className = "vertical-content";
+    qualiTitle.className = "qualiTitle";
+    quali.className = "quali";
+    raceTitle.className = "raceTitle";
+    race.className = "race";
 
     raceTile.appendChild(raceTileInfo);
     raceTileInfo.appendChild(trackName);
@@ -97,63 +85,51 @@ function createStandardRaceTile(currentEvent, row) {
 
 function createSprintRaceTile(currentEvent, row) {
     const raceTile = document.createElement("div");
-    raceTile.className = "race-tile";
-
     const raceTileInfo = document.createElement("div");
-    raceTileInfo.className = "race-tile-info";
-
     const trackName = document.createElement("h4");
-    trackName.className = "track-name";
-    trackName.innerText = currentEvent.get("Race").circuit.name;
-
     const horizontalContent = document.createElement("div");
-    horizontalContent.className = "horizontal-content";
-
     const verticalContent1 = document.createElement("div");
-    verticalContent1.className = "vertical-content";
-
     const p1Title = document.createElement("h5");
-    p1Title.className = "p1Title";
-    p1Title.innerText = "P1:";
-
     const p1 = document.createElement("p");
-    p1.className = "p1";
-    p1.innerText = getSessionTime("1st Practice", currentEvent);
-
     const sprintQualiTitle = document.createElement("h5");
-    sprintQualiTitle.className = "sprintQualiTitle";
-    sprintQualiTitle.innerText = "SQ:";
-
     const sprintQuali = document.createElement("p");
-    sprintQuali.className = "sprintQuali";
-    sprintQuali.innerText = getSessionTime("1st Sprint Shootout", currentEvent);
-
     const sprintTitle = document.createElement("h5");
-    sprintTitle.className = "sprintTitle";
-    sprintTitle.innerText = "P3:";
-
     const sprint = document.createElement("p");
-    sprint.className = "sprint";
-    sprint.innerText = getSessionTime("Sprint", currentEvent);
-
     const verticalContent2 = document.createElement("div");
-    verticalContent2.className = "vertical-content";
-
     const qualiTitle = document.createElement("h5");
-    qualiTitle.className = "qualiTitle";
-    qualiTitle.innerText = "Quali:";
-
     const quali = document.createElement("p");
-    quali.className = "quali";
-    quali.innerText = getSessionTime("1st Qualifying", currentEvent);
-
     const raceTitle = document.createElement("h5");
-    raceTitle.className = "raceTitle";
-    raceTitle.innerText = "Race:";
-
     const race = document.createElement("p");
-    race.className = "race";
+
+    raceTile.style.backgroundImage = "url('images/" + currentEvent.get("Race").competition.id + ".avif')"
+    trackName.innerText = currentEvent.get("Race").circuit.name;
+    p1Title.innerText = "P1:";
+    p1.innerText = getSessionTime("1st Practice", currentEvent);
+    sprintQualiTitle.innerText = "SQ:";
+    sprintQuali.innerText = getSessionTime("1st Sprint Shootout", currentEvent);
+    sprintTitle.innerText = "P3:";
+    sprint.innerText = getSessionTime("Sprint", currentEvent);
+    qualiTitle.innerText = "Quali:";
+    quali.innerText = getSessionTime("1st Qualifying", currentEvent);
+    raceTitle.innerText = "Race:";
     race.innerText = getSessionTime("Race", currentEvent);
+
+    raceTile.className = "race-tile";
+    raceTileInfo.className = "race-tile-info";
+    trackName.className = "track-name";
+    horizontalContent.className = "horizontal-content";
+    verticalContent1.className = "vertical-content";
+    p1Title.className = "p1Title";
+    p1.className = "p1";
+    sprintQualiTitle.className = "sprintQualiTitle";
+    sprintQuali.className = "sprintQuali";
+    sprintTitle.className = "sprintTitle";
+    sprint.className = "sprint";
+    verticalContent2.className = "vertical-content";
+    qualiTitle.className = "qualiTitle";
+    quali.className = "quali";
+    raceTitle.className = "raceTitle";
+    race.className = "race";
 
     raceTile.appendChild(raceTileInfo);
     raceTileInfo.appendChild(trackName);

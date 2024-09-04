@@ -31,7 +31,7 @@ function updateInfoStandardRace(currentEvent) {
     let startDate = new Date(currentEvent.get("1st Practice").date);
     let endDate = new Date(currentEvent.get("Race").date);
 
-    trackMap.src = currentEvent.get("Race").circuit.image;
+    trackMap.src = "images/" + currentEvent.get("Race").competition.id + ".avif";
     trackName.innerText = currentEvent.get("Race").competition.name;
     p1.innerText = getSessionTime("1st Practice", currentEvent);
     p2Label.innerText = "Practice 2: ";
@@ -65,7 +65,7 @@ function updateInfoSprintRace(currentEvent) {
     let endDate = new Date(currentEvent.get("Race").date);
 
 
-    trackMap.src = currentEvent.get("Race").circuit.image;
+    trackMap.src = "images/" + currentEvent.get("Race").competition.id + ".avif";
     trackName.innerText = currentEvent.get("Race").competition.name;
     p1.innerText = getSessionTime("1st Practice", currentEvent);
     sprintQualiLabel.innerText = "Sprint Shootout: ";
@@ -112,6 +112,7 @@ fetch(url1, options)
 
         eventsGlobal = events;
 
+        console.log(events);
         let keys = events.keys();
         for (let i = 0; i < events.size; i++) {
             let compId = keys.next();
