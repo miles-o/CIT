@@ -4,17 +4,19 @@
  * and open the template in the editor.
  */
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Evelyn Zhao
  */
 public class Bank {
-    private BankAccount[] bankAccs = new BankAccount[3];
-    
+    private ArrayList<BankAccount> bankAccs = new ArrayList<>();
+
     public Bank(BankAccount inBankAcc1, BankAccount inBankAcc2, BankAccount inBankAcc3){
-        bankAccs[0]=inBankAcc1;
-        bankAccs[1]=inBankAcc2;
-        bankAccs[2]=inBankAcc3;
+        bankAccs.add(inBankAcc1);
+        bankAccs.add(inBankAcc2);
+        bankAccs.add(inBankAcc3);
     }
     
     public void getTotalBalance(){

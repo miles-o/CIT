@@ -15,7 +15,6 @@ public class MyApp {
         System.out.println(bankAcc1);
         
         bankAcc1.setAccName("Wanqi Zhao");
-        //bankAcc1.accName = "Wanqi Zhao";
         System.out.println(bankAcc1);
         System.out.println("The name of bankAcc1 is " + bankAcc1.getAccName());
         
